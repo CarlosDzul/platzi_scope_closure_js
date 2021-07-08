@@ -1,3 +1,5 @@
+let demo = 'demo'
+
 const fruits = () =>{
     if(true){
         var fruits1 = 'apple';
@@ -6,9 +8,12 @@ const fruits = () =>{
 
         console.log(fruits2)
         console.log(fruist3)
+        console.log(demo)
     }
 
-    console.log(fruits1)    
+    console.log(fruits1)   
+    ////console.log(fruits2) ERROR
+    //console.log(fruist3) ERROR
 }
 
 fruits()
@@ -16,11 +21,11 @@ fruits()
 let x = 1;
 {
     let x = 2;
-    console.log(x)
+    console.log(x) // 2
 }
 
-console.log(x)
-}
+console.log(x) // 1
+
 
 
 const anotherFunction = () =>{
