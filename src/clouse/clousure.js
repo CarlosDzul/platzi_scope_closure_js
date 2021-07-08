@@ -9,18 +9,14 @@ moneyBox(10);
 
 const moneyBoxClouse = () =>{
     var saveCoins = 0;
-
     const countCoins = (coins) =>{
         saveCoins += coins;
         console.log(`MoneyBox; $${saveCoins}`);
     }
-
-    return countCoins;
-    
+    return countCoins;    
 }
 
 let myMoneyBox = moneyBoxClouse();
 myMoneyBox(5);
 myMoneyBox(10);
 myMoneyBox(15);
-
